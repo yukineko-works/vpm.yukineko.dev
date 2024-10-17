@@ -1,0 +1,1 @@
+export const vpmPackagesUrl = 'https://vpm.yukineko.dev/index.json'
