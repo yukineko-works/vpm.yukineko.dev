@@ -1,10 +1,15 @@
 <template>
     <div :class="$style.root">
         <div :class="$style.container">
-            <h2 :class="$style.title">Packages</h2>
-            <div :class="$style.buttons">
-                <VPButton theme="brand" text="VCCに追加" target="_self" :href="`vcc://vpm/addRepo?url=${encodeURIComponent(vpmPackagesUrl)}`" />
-                <VPButton theme="alt" text="リポジトリURLをコピー" @click="copyRepositoryUrl" />
+            <div :class="$style.titleContainer">
+                <div>
+                    <h2 :class="$style.title">Packages</h2>
+                    <p :class="$style.subtext">{{ vpmPackagesUrl }}</p>
+                </div>
+                <div :class="$style.buttons">
+                    <VPButton theme="brand" text="VCCに追加" target="_self" :href="`vcc://vpm/addRepo?url=${encodeURIComponent(vpmPackagesUrl)}`" />
+                    <VPButton theme="alt" text="リポジトリURLをコピー" @click="copyRepositoryUrl" />
+                </div>
             </div>
             <div>
                 <p v-if="loading">Loading...</p>
@@ -70,9 +75,31 @@ fetchPackages()
     max-width: 1152px;
 }
 
+.titleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px 32px;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+}
+
+.subtext {
+    margin-top: 4px;
+    color: var(--vp-c-text-2);
+    font-size: 14px;
+
+    @media (min-width: 640px) {
+        font-size: 15px;
+    }
+
+    @media (min-width: 960px) {
+        font-size: 16px;
+    }
+}
+
 .title {
     font-size: 18px;
-    margin-bottom: 32px;
     font-weight: 500;
 
     @media (min-width: 640px) {
@@ -87,7 +114,6 @@ fetchPackages()
 .buttons {
     display: flex;
     gap: 8px;
-    margin-bottom: 32px;
 }
 
 .packages {
