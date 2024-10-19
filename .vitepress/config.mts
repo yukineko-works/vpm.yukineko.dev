@@ -8,6 +8,7 @@ export default defineConfig({
   description: "VPM Repository & Docs",
   lang: 'ja-JP',
   srcDir: 'pages',
+  outDir: 'dist',
   cleanUrls: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
