@@ -59,6 +59,7 @@ fetchPackages()
 
 <style module lang="scss">
 .root {
+    margin-top: 48px;
     padding: 0 24px;
 
     @media (min-width: 640px) {
