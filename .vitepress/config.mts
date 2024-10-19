@@ -8,6 +8,7 @@ export default defineConfig({
   description: "VPM Repository & Docs",
   lang: 'ja-JP',
   srcDir: 'pages',
+  cleanUrls: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -22,6 +23,8 @@ export default defineConfig({
       items: [
         { text: 'このギミックについて', link: 'intro' },
         { text: '導入方法', link: 'getting-started' },
+        { text: '設定', link: 'settings' },
+        { text: 'モジュールの追加方法', link: 'add-module' },
         { text: '更新履歴', link: 'changelog' },
         { text: 'よくある質問', link: 'faq' },
       ]
@@ -38,19 +41,6 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/yukineko-works' }
     ]
-  },
-  transformPageData: (pageData) => {
-    const actions = pageData.frontmatter?.hero?.actions
-    if (typeof actions !== 'object' || !Array.isArray(actions)) return
-
-    pageData.frontmatter.hero.actions = actions.map(action => {
-      if (action?.link === '#@vcc') {
-        action.link = `vcc://vpm/addRepo?url=${encodeURIComponent(vpmPackagesUrl)}`
-      }
-      return action
-    })
-
-    return pageData
   },
   markdown: {
     config: (md) => {
