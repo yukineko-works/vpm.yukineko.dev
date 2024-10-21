@@ -43,9 +43,9 @@ jobs:
         run: npm run docs:build
 
       - name: Build Listing JSON
-        uses: yukineko-works/vpm-build-listing-json-action@v0.1.3
+        uses: yukineko-works/vpm-build-listing-json-action@v1.1.0
         with:
-          source-json-path: .vpm/source.json
+          source: .vpm/source.json
           output: dist/index.json
           token: ${{ secrets.GITHUB_TOKEN }}
 
