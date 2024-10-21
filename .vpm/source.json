@@ -3,9 +3,7 @@
     "id": "dev.yukineko.vpm-repos",
     "url": "https://vpm.yukineko.dev/index.json",
     "author": {
-        "email": "",
-        "name": "yukineko",
-        "url": "https://github.com/yukineko-works"
+        "name": "yukineko"
     },
     "githubRepos": [
         "yukineko-works/WorldIntegratedMenu",
