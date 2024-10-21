@@ -149,3 +149,11 @@
 .VPHero .tagline {
   color: var(--vp-c-text-1);
 }
+
+/**
+ * Component: Image
+ * -------------------------------------------------------------------------- */
+
+.VPDoc img {
+  border-radius: 8px;
+}
