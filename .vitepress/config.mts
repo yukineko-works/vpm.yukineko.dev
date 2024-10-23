@@ -36,6 +36,18 @@ export default defineConfig({
       items: [
         { text: 'このギミックについて', link: 'intro' },
         { text: '導入方法', link: 'getting-started' },
+        {
+          text: '設定',
+          collapsed: false,
+          base: '/docs/wim-modules/settings/',
+          items: [
+            { text: 'ライティング設定モジュール', link: 'lighting' },
+            { text: 'サウンド設定モジュール', link: 'sound' },
+            { text: 'スイッチモジュール', link: 'switch' },
+            { text: 'Joinログモジュール', link: 'joinlog' },
+            { text: 'プレイヤー一覧モジュール', link: 'playerlist' },
+          ]
+        }
       ]
     }],
 

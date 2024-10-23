@@ -10,14 +10,12 @@ VCCからWIMを導入したいプロジェクトの「Manage Project」を選択
 ![alt text](images/getting-started/vcc1.png)
 
 Manage Packages内にある「World Integrated Menu」のInstalled Versionから最新のバージョンを選択します。  
-![alt text](images/getting-started/vcc2.png)
-
-これで導入は完了です。
-
 ::: tip
 「World Integrated Menu」パッケージが表示されていない場合は、リポジトリが追加されていない可能性があります。  
 リポジトリの追加方法については[VCCへの追加方法](/docs/add-to-vcc)を参照してください。
 :::
+
+![alt text](images/getting-started/vcc2.png)
 
 ### UnityPackageからのインストール
 Boothからダウンロードしたzipの中にある `wim-installer.unitypackage` をインポートしてください。  
