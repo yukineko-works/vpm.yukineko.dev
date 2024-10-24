@@ -43,7 +43,7 @@ jobs:
         run: npm run docs:build
 
       - name: Build Listing JSON
-        uses: yukineko-works/vpm-build-listing-json-action@v1.1.0
+        uses: yukineko-works/vpm-build-listing-json-action@v1.1.1
         with:
           source: .vpm/source.json
           output: dist/index.json
