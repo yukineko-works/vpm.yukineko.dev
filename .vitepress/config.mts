@@ -28,6 +28,7 @@ export default defineConfig({
         { text: 'モジュールの追加方法', link: 'add-module' },
         { text: '更新履歴', link: 'changelog' },
         { text: 'よくある質問', link: 'faq' },
+        { text: '利用規約', link: 'tos' }
       ]
     }, {
       text: 'WIM拡張モジュール',
