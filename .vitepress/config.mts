@@ -48,7 +48,16 @@ export default defineConfig({
             { text: 'Joinログモジュール', link: 'joinlog' },
             { text: 'プレイヤー一覧モジュール', link: 'playerlist' },
           ]
-        }
+        },
+        {
+          text: '更新履歴',
+          collapsed: false,
+          base: '/docs/wim-modules/changelog/',
+          items: [
+            { text: 'WIM 拡張モジュール Vol.1', link: 'ext-vol1' }
+          ]
+        },
+        { text: '利用規約', link: 'tos' }
       ]
     }],
 
