@@ -31,6 +31,13 @@ const latestPackage = props.vrcPackage.versions[Object.keys(props.vrcPackage.ver
     border-radius: 12px;
     height: 100%;
     background-color: var(--vp-c-bg-soft);
+
+    @media (max-width: 640px) {
+        flex-direction: column;
+        gap: 2px;
+        align-items: normal;
+        padding: 18px 24px;
+    }
 }
 
 .packageNamesContainer {
