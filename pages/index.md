@@ -13,4 +13,7 @@ hero:
     - theme: alt
       text: ドキュメント
       link: /docs
+    - theme: alt
+      text: BOOTH
+      link: https://yukineko-works.booth.pm/
 ---
