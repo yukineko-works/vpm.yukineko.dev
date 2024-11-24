@@ -23,6 +23,9 @@ PostProcessのBloomの強さを変更することができます。
 ### DirectionalLight (アバター)
 アバターへのライティングの強さを変更することができます。
 
+## 設定の永続化について (Persistence)
+ナイトモードを除く、各設定欄にある「値を永続化する」にチェックをつけることで、設定を永続化することができます。  
+
 ## PostProcessのセットアップ {#post-process}
 - [自動でセットアップを行う](#auto-setup)
 - [手動で設定する](#manual-setup)
