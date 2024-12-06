@@ -59,7 +59,20 @@ export default defineConfig({
         },
         { text: '利用規約', link: 'tos' }
       ]
-    }],
+      }, {
+        text: '天候&太陽システム',
+        collapsed: true,
+        base: '/docs/wass-core/',
+        items: [
+          { text: 'このギミックについて', link: 'intro' },
+          { text: '導入方法', link: 'getting-started' },
+          { text: '設定', link: 'settings' },
+          { text: '更新履歴', link: 'changelog' },
+          { text: '移行ガイド', link: 'migration-guide' },
+          { text: '対応しているSkybox', link: 'supported-skybox' },
+          { text: '利用規約', link: 'tos' }
+        ]
+      }],
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/yukineko-works' }
