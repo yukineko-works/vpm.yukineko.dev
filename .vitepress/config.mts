@@ -72,6 +72,18 @@ export default defineConfig({
           { text: '対応しているSkybox', link: 'supported-skybox' },
           { text: '利用規約', link: 'tos' }
         ]
+      }, {
+        text: '天気予報パネル',
+        collapsed: true,
+        base: '/docs/wass-weather-panel/',
+        items: [
+          { text: 'このギミックについて', link: 'intro' },
+          { text: '導入方法', link: 'getting-started' },
+          { text: '設定', link: 'settings' },
+          { text: '更新履歴', link: 'changelog' },
+          { text: '移行ガイド', link: 'migration-guide' },
+          { text: '利用規約', link: 'tos' }
+        ]
       }],
 
     socialLinks: [
