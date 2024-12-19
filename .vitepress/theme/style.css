@@ -81,6 +81,10 @@
   text-decoration: none;
 }
 
+.vp-doc .header-anchor {
+  top: unset;
+}
+
 /**
  * Component: Button
  * -------------------------------------------------------------------------- */
@@ -156,4 +160,29 @@
 
 .VPDoc img {
   border-radius: 8px;
+}
+
+/**
+ * Component: h
+ * -------------------------------------------------------------------------- */
+.VPDoc h3 {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  &::before {
+      content: '';
+      display: block;
+      width: 4px;
+      height: 32px;
+      background-color: var(--vp-c-divider);
+      border-radius: 12px;
+  }
+}
+
+.VPDoc h4 {
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  padding: 6px 12px;
+  font-size: 16px;
 }
