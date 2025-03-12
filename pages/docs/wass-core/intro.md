@@ -3,7 +3,10 @@ title: 天候&太陽システムとは
 ---
 
 # 天候&太陽システムとは
-天候&太陽システムは時間によって天気が変わるギミックと、現実の太陽および月と同様の動きをするDirectionalLightを追加する、VRChatワールドギミックです。
+天候&太陽システムは時間によって天気が変わるギミックと、現実の太陽および月と同様の動きをするDirectionalLightを追加する、VRChatワールドギミックです。  
+
+<Booth link="https://yukineko-works.booth.pm/items/3519545" :isFree="true" />  
+<VPMLink />
 
 ::: tip
 天候システムで抽選された天気を見ることが出来る「天気予報パネル」も公開しています。  

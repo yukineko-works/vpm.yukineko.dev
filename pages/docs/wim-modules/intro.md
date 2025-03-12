@@ -11,6 +11,9 @@ World Integrated Menuの機能を拡張するモジュールパックです。
 :::
 
 ## WIM拡張モジュール Vol.1
+
+<Booth link="https://yukineko-works.booth.pm/items/6248326" />  
+
 ### ライティング設定
 ![alt text](images/intro/light.png)
 

@@ -4,6 +4,10 @@ title: ワールド統合メニュー (World Integrated Menu) とは
 
 # ワールド統合メニュー (World Integrated Menu) とは
 ![alt text](images/intro/image.png)  
+
+<Booth link="https://yukineko-works.booth.pm/items/6248278" :isFree="true" />  
+<VPMLink />
+
 ワールド統合メニュー (World Integrated Menu / WIM) はVRChat用のワールドギミックです。  
 「ワールドによくある機能をひとまとめに、簡単に導入出来る」ことを目標として開発しました。  
 
