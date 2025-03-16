@@ -1,6 +1,5 @@
 import { defineConfig } from 'vitepress'
 import footnote from 'markdown-it-footnote'
-import { vpmPackagesUrl } from './vpm.config'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -35,7 +34,7 @@ export default defineConfig({
       collapsed: true,
       base: '/docs/wim-modules/',
       items: [
-        { text: 'このギミックについて', link: 'intro' },
+        { text: 'モジュール一覧', link: 'intro' },
         { text: '導入方法', link: 'getting-started' },
         {
           text: '設定',
@@ -47,6 +46,10 @@ export default defineConfig({
             { text: 'スイッチモジュール', link: 'switch' },
             { text: 'Joinログモジュール', link: 'joinlog' },
             { text: 'プレイヤー一覧モジュール', link: 'playerlist' },
+            { text: 'QvPen呼び出しモジュール', link: 'qvpen-summoner' },
+            { text: '動画プレイヤー操作モジュール', link: 'videoplayer-controller' },
+            { text: 'テレポートモジュール', link: 'teleport' },
+            { text: 'ミラーモジュール', link: 'mirror' },
           ]
         },
         {
@@ -54,7 +57,8 @@ export default defineConfig({
           collapsed: false,
           base: '/docs/wim-modules/changelog/',
           items: [
-            { text: 'WIM 拡張モジュール Vol.1', link: 'ext-vol1' }
+            { text: 'WIM 拡張モジュール Vol.1', link: 'ext-vol1' },
+            { text: 'WIM 拡張モジュール Vol.2', link: 'ext-vol2' },
           ]
         },
         { text: '利用規約', link: 'tos' }
