@@ -1,7 +1,6 @@
 <template>
     <DefaultTheme.Layout>
         <template #home-features-after>
-            <HomePage />
             <Home />
         </template>
     </DefaultTheme.Layout>
