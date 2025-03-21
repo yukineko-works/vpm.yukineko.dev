@@ -7,6 +7,11 @@ title: 導入方法
 ## インストール
 Boothからダウンロードしたzipの中にある `dev.yukineko.wim.modules-<module-name>-x.x.x.unitypackage` をインポートしてください。  
 
+::: tip
+WIM本体がインポートされていない場合や、最新版がインポートされていない場合は正常に動作しない場合があります。  
+[こちら](../wim-core/intro)から最新版のWIMを追加してください。
+:::
+
 ## モジュールの追加
 WIM本体の設定からモジュールの追加を行うことができます。  
 詳しくは[こちらのページ](../wim-core/add-module)をご覧ください。  
