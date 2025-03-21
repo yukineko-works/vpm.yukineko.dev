@@ -17,6 +17,7 @@ $vpm-color: #323245;
     border-radius: 8px;
     font-size: 18px;
     padding: 12px 32px;
+    margin-bottom: 12px;
     transition: all 0.3s !important;
 
     &:hover {

@@ -29,6 +29,7 @@ $booth-color: #fc4d50;
     font-size: 18px;
     padding: 12px 32px;
     margin-right: 12px;
+    margin-bottom: 12px;
     transition: all 0.3s !important;
 
     &:hover {
