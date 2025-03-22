@@ -32,7 +32,7 @@ BGMなどのON/OFFや音量調節を行うことができ、BGMや環境音な�
 ![alt text](images/intro/sound.png)
 
 ### スイッチ
-オブジェクトの有効/無効の切り替えを行ったり、オブジェクトのTransformを操作することができるモジュールです。  
+オブジェクトやコライダーの有効/無効の切り替えを行ったり、オブジェクトのTransformを操作することができるモジュールです。  
 項目は無制限に追加することができます。  
 ![alt text](images/intro/switch.png)
 
