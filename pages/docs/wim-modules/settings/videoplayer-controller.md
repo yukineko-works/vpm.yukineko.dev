@@ -8,21 +8,21 @@ title: 動画プレイヤー操作モジュール
 動画プレイヤーによっては一部の機能が使用できない場合があります。  
 使用できる動画プレイヤーおよび機能は以下の通りです。  
 
-|プレイヤー名|最低対応バージョン|シャッフル切り替え|音量コントロール|キューのコントロール[^1]|
+|プレイヤー名|動作確認済みバージョン|シャッフル切り替え|音量コントロール|キューのコントロール[^1]|
 |---|---|---|---|---|
-|[iwaSync3](https://booth.pm/ja/items/2666275)|v3.6.13|:x:|:heavy_check_mark:|:x:|
+|[iwaSync3](https://booth.pm/ja/items/2666275)|v3.6.16|:x:|:heavy_check_mark:|:x:|
 |[YamaPlayer](https://booth.pm/ja/items/4768863)|v1.5.8|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |[KineL式(りら式) VideoPlayer](https://booth.pm/ja/items/2758684)|v2.5.5|:x:|:x:|:x:|
-|[VizVid](https://booth.pm/ja/items/5056077)|v1.4.0|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|[VizVid](https://booth.pm/ja/items/5056077)|v1.4.4|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |[USharpVideo](https://github.com/DrBlackRat/USharpVideoModernUI) (USharpVideoModernUI)[^2]|v1.1.2|:heavy_check_mark:|:x:|:heavy_check_mark:|
+|[ProTV](https://protv.dev/)|v3.0.0-beta.24.1|:x:|:heavy_check_mark:|:x:|
   
 ::: info
 動画の再生/一時停止、再生位置の変更(シーク)、ループ再生の切り替えは全てのプレイヤーで使用可能です。
 :::
 
 ::: tip
-対応バージョンとして記載されているバージョンは正常に動作することが確認されているバージョンです。  
-記載されているバージョン以上でも動作する可能性はありますが、動作保証はできません。  
+動作確認済みバージョンとして記載されているバージョン以外でも動作する可能性はありますが、動作保証はできません。  
 定期的に各動画プレイヤーの最新バージョンでの動作確認および動作対応を行う予定です。
 :::
 
