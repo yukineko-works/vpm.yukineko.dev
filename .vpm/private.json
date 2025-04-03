@@ -1,5 +1,7 @@
 {
     "repositories": [
-        "yukineko-works/WIM-Extension-Modules-Vol1"
+        "yukineko-works/WIM-Extension-Modules-Vol1",
+        "yukineko-works/WIM-Extension-Modules-Vol2",
+        "yukineko-works/WeatherPanel"
     ]
 }
