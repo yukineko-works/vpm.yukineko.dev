@@ -51,6 +51,13 @@ jobs:
           output: dist/index.json
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Build Latest Version Listing
+        uses: yukineko-works/vpm-latest-version-listing-action@v1
+        with:
+          config: .vpm/private.json
+          output: dist/latest-version.json
+          token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
