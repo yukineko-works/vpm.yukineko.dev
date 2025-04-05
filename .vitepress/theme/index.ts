@@ -5,6 +5,7 @@ import DefaultTheme from 'vitepress/theme'
 import HomeLayout from './HomeLayout.vue'
 import BoothLink from './components/BoothLink.vue'
 import VPMLink from './components/VPMLink.vue'
+import PageCard from './components/PageCard.vue'
 import './style.css'
 
 export default {
@@ -15,5 +16,6 @@ export default {
   enhanceApp({ app, router, siteData }) {
     app.component('Booth', BoothLink)
     app.component('VPMLink', VPMLink)
+    app.component('PageCard', PageCard)
   }
 } satisfies Theme
