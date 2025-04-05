@@ -201,3 +201,7 @@ body {
   padding: 6px 12px;
   font-size: 16px;
 }
+
+.VPDoc h5 {
+  margin-top: 16px;
+}
