@@ -19,7 +19,10 @@ importers:
         version: 1.85.1
       vitepress:
         specifier: ^1.6.3
-        version: 1.6.3(@algolia/client-search@5.21.0)(@types/node@22.14.0)(postcss@8.5.3)(sass-embedded@1.80.1)(sass@1.85.1)(search-insights@2.17.2)
+        version: 1.6.3(@algolia/client-search@5.21.0)(@types/node@22.14.0)(nprogress@0.2.0)(postcss@8.5.3)(sass-embedded@1.80.1)(sass@1.85.1)(search-insights@2.17.2)
+      vitepress-plugin-nprogress:
+        specifier: ^0.0.4
+        version: 0.0.4
       vue:
         specifier: ^3.5.13
         version: 3.5.13
@@ -776,6 +779,9 @@ packages:
   node-addon-api@7.1.1:
     resolution: {integrity: sha512-5m3bsyrjFWE1xf7nz7YXdN4udnVtXK6/Yfgn5qnahL6bCkf2yKt4k3nuTKAtT4r3IG8JNR2ncsIMdZuAzJjHQQ==}
 
+  nprogress@0.2.0:
+    resolution: {integrity: sha512-I19aIingLgR1fmhftnbWWO3dXc0hSxqHQHQb3H8m+K3TnEn/iSeTZZOyvKXWqQESMwuUVnatlCnZdLBZZt2VSA==}
+
   oniguruma-to-es@3.1.1:
     resolution: {integrity: sha512-bUH8SDvPkH3ho3dvwJwfonjlQ4R80vjyvrU8YpxuROddv55vAEJrTuCuCVUhhsHbtlD9tGGbaNApGQckXhS8iQ==}
 
@@ -1051,6 +1057,9 @@ packages:
         optional: true
       terser:
         optional: true
+
+  vitepress-plugin-nprogress@0.0.4:
+    resolution: {integrity: sha512-YzW36kBnjuFH91DOFIA5snyBf4WpF/cYfhAiyNefhqif8QQIKGsbpzvI8VN0M8RHLGr9iQyHhF7dQsm//Xf5Hw==}
 
   vitepress@1.6.3:
     resolution: {integrity: sha512-fCkfdOk8yRZT8GD9BFqusW3+GggWYZ/rYncOfmgcDtP3ualNHCAg+Robxp2/6xfH1WwPHtGpPwv7mbA3qomtBw==}
@@ -1572,13 +1581,14 @@ snapshots:
     transitivePeerDependencies:
       - typescript
 
-  '@vueuse/integrations@12.8.2(focus-trap@7.6.4)':
+  '@vueuse/integrations@12.8.2(focus-trap@7.6.4)(nprogress@0.2.0)':
     dependencies:
       '@vueuse/core': 12.8.2
       '@vueuse/shared': 12.8.2
       vue: 3.5.13
     optionalDependencies:
       focus-trap: 7.6.4
+      nprogress: 0.2.0
     transitivePeerDependencies:
       - typescript
 
@@ -1784,6 +1794,8 @@ snapshots:
 
   node-addon-api@7.1.1:
     optional: true
+
+  nprogress@0.2.0: {}
 
   oniguruma-to-es@3.1.1:
     dependencies:
@@ -2046,7 +2058,11 @@ snapshots:
       sass: 1.85.1
       sass-embedded: 1.80.1
 
-  vitepress@1.6.3(@algolia/client-search@5.21.0)(@types/node@22.14.0)(postcss@8.5.3)(sass-embedded@1.80.1)(sass@1.85.1)(search-insights@2.17.2):
+  vitepress-plugin-nprogress@0.0.4:
+    dependencies:
+      nprogress: 0.2.0
+
+  vitepress@1.6.3(@algolia/client-search@5.21.0)(@types/node@22.14.0)(nprogress@0.2.0)(postcss@8.5.3)(sass-embedded@1.80.1)(sass@1.85.1)(search-insights@2.17.2):
     dependencies:
       '@docsearch/css': 3.8.2
       '@docsearch/js': 3.8.2(@algolia/client-search@5.21.0)(search-insights@2.17.2)
@@ -2059,7 +2075,7 @@ snapshots:
       '@vue/devtools-api': 7.7.2
       '@vue/shared': 3.5.13
       '@vueuse/core': 12.8.2
-      '@vueuse/integrations': 12.8.2(focus-trap@7.6.4)
+      '@vueuse/integrations': 12.8.2(focus-trap@7.6.4)(nprogress@0.2.0)
       focus-trap: 7.6.4
       mark.js: 8.11.1
       minisearch: 7.1.2
