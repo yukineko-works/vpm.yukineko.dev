@@ -43,6 +43,8 @@
  *   in custom container, badges, etc.
  * -------------------------------------------------------------------------- */
 
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+
  :root {
   --vp-c-default-1: var(--vp-c-gray-1);
   --vp-c-default-2: var(--vp-c-gray-2);
@@ -83,6 +85,19 @@
 
 .vp-doc .header-anchor {
   top: unset;
+}
+
+/**
+ * Global
+ * -------------------------------------------------------------------------- */
+
+body {
+  text-spacing-trim: space-all;
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  /* font-feature-settings: "palt";
+  letter-spacing: 0.05em !important; */
 }
 
 /**
