@@ -4,6 +4,10 @@ title: WIM 拡張モジュール Vol.1 | 更新履歴
 
 # 更新履歴 (WIM 拡張モジュール Vol.1)
 
+## v1.5.1
+`2025/04/06`  
+- Fix: ゲーム内でポストプロセスのプリセットがリセットされてしまう問題を修正
+
 ## v1.5.0
 `2025/04/05`  
 - Feat: [PostProcessのプリセット機能](../settings/lighting#post-process-setting)を実装
