@@ -3,10 +3,13 @@ title: スイッチモジュール
 ---
 
 # スイッチモジュール
+
+[[toc]]
+
 ## 設定項目
 ![alt text](images/switch/main.png)
 
-スイッチモジュール右下の「+」からセクション、スイッチ、トランスフォーム、コライダーを追加することができます。  
+スイッチモジュール右下の「+」からセクション、スイッチ、トランスフォーム、コライダー、トリガーを追加することができます。  
 ![alt text](images/switch/add.png)
 
 ::: info
@@ -19,6 +22,7 @@ title: スイッチモジュール
 
 ### スイッチ
 任意のオブジェクトの有効/無効を切り替えることができます。
+![alt text](images/switch/c-switch.png)
 
 #### 名前
 スイッチの名前を設定します。
@@ -41,6 +45,8 @@ title: スイッチモジュール
 ### トランスフォーム {#transform}
 指定したオブジェクトの位置、回転、スケールをスライダーで操作できます。  
 挙動や仕様については[Transformの仕様について](#transform-spec)をご覧ください。
+
+![alt text](images/switch/c-transform.png)
 
 #### 名前
 スライダー上部に表示される名前を設定します。
@@ -81,6 +87,8 @@ X, Y, Zの値は相対値で設定してください。
 ### コライダー {#collider}
 指定したオブジェクトのコライダーの有効/無効を切り替えることができます。
 
+![alt text](images/switch/c-collider.png)
+
 #### 名前
 スイッチの名前を設定します。
 
@@ -92,6 +100,31 @@ X, Y, Zの値は相対値で設定してください。
 
 #### 値を永続化する
 コライダーの有効状態を永続化するかどうかを設定します。
+
+### トリガー {#trigger}
+指定したUdonBehaviourに対して`SendCustomEvent`を実行することができます。  
+
+![alt text](images/switch/c-trigger.png)
+
+#### 名前
+トリガーの名前を設定します。  
+
+#### 名前を非表示にする
+トリガーボタン上部に表示される名前を非表示にすることができます。  
+
+#### ボタンのラベル名
+トリガーボタンに表示されるラベル名を設定します。  
+
+#### UdonBehaviour
+`SendCustomEvent`を実行するUdonBehaviourを設定します。  
+
+#### スクリプト名
+UdonBehaviourで指定されたオブジェクトにアタッチされているUdonBehaviourのスクリプト名を選択します。  
+複数のUdonBehaviourがアタッチされている場合は、ここから`SendCustomEvent`を実行するスクリプトを選択することができます。  
+
+#### トリガーするメソッド名
+`SendCustomEvent`でトリガーするメソッド名を設定します。  
+対象のメソッドは、UdonBehaviourの`SendCustomEvent`で呼び出せるメソッドである必要があります。  
 
 ## Transformの仕様について {#transform-spec}
 Transformで指定できるPosition / Rotation / Scaleの値は相対的に指定する必要があります。    
