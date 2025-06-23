@@ -11,9 +11,9 @@ title: 動画プレイヤー操作モジュール
 |プレイヤー名|動作確認済みバージョン|シャッフル切り替え|音量コントロール|キューのコントロール[^1]|
 |---|---|---|---|---|
 |[iwaSync3](https://booth.pm/ja/items/2666275)|v3.6.16|:x:|:heavy_check_mark:|:x:|
-|[YamaPlayer](https://booth.pm/ja/items/4768863)|v1.5.8|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|[YamaPlayer](https://booth.pm/ja/items/4768863)|v1.5.13|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |[KineL式(りら式) VideoPlayer](https://booth.pm/ja/items/2758684)|v2.5.5|:x:|:x:|:x:|
-|[VizVid](https://booth.pm/ja/items/5056077)|v1.4.4|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|[VizVid](https://booth.pm/ja/items/5056077)|v1.4.5|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |[USharpVideo](https://github.com/DrBlackRat/USharpVideoModernUI) (USharpVideoModernUI)[^2]|v1.1.2|:heavy_check_mark:|:x:|:heavy_check_mark:|
 |[ProTV](https://protv.dev/)|v3.0.0-beta.24.1|:x:|:heavy_check_mark:|:x:|
   
