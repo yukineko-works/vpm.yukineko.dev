@@ -67,6 +67,17 @@ export default defineConfig(sidebarParentGenerator.defineConfig({
                 { text: '利用規約', link: 'tos' }
             ]
         }, {
+            text: 'Skybox自動切り替えシステム',
+            collapsed: true,
+            base: '/docs/skybox-switcher/',
+            items: [
+                { text: 'このギミックについて', link: 'intro' },
+                { text: '導入方法', link: 'getting-started' },
+                { text: '設定', link: 'settings' },
+                { text: '更新履歴', link: 'changelog' },
+                { text: '利用規約', link: 'tos' }
+            ]
+        }, {
             text: '天候&太陽システム',
             collapsed: true,
             base: '/docs/wass-core/',
