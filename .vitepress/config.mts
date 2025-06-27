@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress'
 import footnote from 'markdown-it-footnote'
+import lightbox from 'vitepress-plugin-lightbox'
 import SidebarGroupParentGenerator from './sidebarParentGenerator'
 
 const sidebarParentGenerator = new SidebarGroupParentGenerator()
@@ -99,6 +100,7 @@ export default defineConfig(sidebarParentGenerator.defineConfig({
     markdown: {
         config: (md) => {
             md.use(footnote)
+            md.use(lightbox);
         }
     }
 }, {
