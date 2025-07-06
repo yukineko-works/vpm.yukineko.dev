@@ -8,16 +8,16 @@ title: 動画プレイヤー操作モジュール
 動画プレイヤーによっては一部の機能が使用できない場合があります。  
 使用できる動画プレイヤーおよび機能は以下の通りです。  
 
-|プレイヤー名|動作確認済みバージョン|シャッフル切り替え|音量コントロール|キューのコントロール[^1]|
-|---|---|---|---|---|
-|[iwaSync3](https://booth.pm/ja/items/2666275)|v3.6.16|:x:|:heavy_check_mark:|:x:|
-|[YamaPlayer](https://booth.pm/ja/items/4768863)|v1.5.13|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
-|[KineL式(りら式) VideoPlayer](https://booth.pm/ja/items/2758684)|v2.5.5|:x:|:x:|:x:|
-|[VizVid](https://booth.pm/ja/items/5056077)|v1.4.5|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
-|[USharpVideo](https://github.com/DrBlackRat/USharpVideoModernUI) (USharpVideoModernUI)[^2]|v1.1.2|:heavy_check_mark:|:x:|:heavy_check_mark:|
-|[ProTV](https://protv.dev/)|v3.0.0-beta.24.1|:x:|:heavy_check_mark:|:x:|
+|プレイヤー名|動作確認済みバージョン|基本機能|シャッフル切り替え|音量コントロール|キューのコントロール[^1]|
+|---|---|---|---|---|---|
+|[iwaSync3](https://booth.pm/ja/items/2666275)|v3.6.16|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
+|[YamaPlayer](https://booth.pm/ja/items/4768863)|v1.5.13|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|[KineL式(りら式) VideoPlayer](https://booth.pm/ja/items/2758684)|v2.5.5|:heavy_check_mark:|:x:|:x:|:x:|
+|[VizVid](https://booth.pm/ja/items/5056077)|v1.4.5|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|[USharpVideo](https://github.com/DrBlackRat/USharpVideoModernUI) (USharpVideoModernUI)[^2]|v1.1.2|:heavy_check_mark:|:heavy_check_mark:|:x:|:heavy_check_mark:|
+|[ProTV](https://protv.dev/)|v3.0.0-beta.24.1|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
   
-::: info
+::: info 基本機能について
 動画の再生/一時停止、再生位置の変更(シーク)、ループ再生の切り替えは全てのプレイヤーで使用可能です。
 :::
 
