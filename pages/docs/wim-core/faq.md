@@ -32,6 +32,10 @@ A. 以下の操作を行うことで、メニューのサイズを変更する�
 VRChat内から、ワールド統合メニューの「設定」→「クイックメニューのサイズ」から調整
 
 #### ワールドとしてのデフォルトのサイズを変更する場合(非推奨)
+::: tip
+この方法はv1.4.0以前のバージョンで使用できます。v1.4.0以降では廃止されており、使用できません。
+:::
+
 Hierarchyウィンドウから`WorldIntegratedMenu`→`System`→`QuickMenu`を選択したのち、Inspectorウィンドウから`DesktopQuickMenuStandardSize`の値を調整
 
 ::: warning
