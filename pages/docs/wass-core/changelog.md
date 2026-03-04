@@ -5,7 +5,7 @@ title: 更新履歴
 # 更新履歴
 
 ## v2.0.3
-`2025/03/04`
+`2026/03/04`
 - Feat: Camino Skybox (旧Physical Skybox) のアップデートに対応
   - Camino Skyboxのバージョン1.5.0以降に対応しました
   - これまで通り、Camino Skyboxのバージョン1.5.0以前でも使用できます (後方互換性あり)
