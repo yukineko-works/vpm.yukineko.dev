@@ -4,6 +4,15 @@ title: 更新履歴
 
 # 更新履歴
 
+## v2.0.3
+`2025/03/04`
+- Feat: Camino Skybox (旧Physical Skybox) のアップデートに対応
+  - Camino Skyboxのバージョン1.5.0以降に対応しました
+  - これまで通り、Camino Skyboxのバージョン1.5.0以前でも使用できます (後方互換性あり)
+- Enhance: デバッグ用機能を強化
+  - 天候システム: UnityEditor上のPlayモードで、任意の天気に切り替えられる機能を追加しました
+  - リアルタイム太陽システム: UnityEditor上のPlayモードで、月齢を任意の値に設定できる機能を追加しました
+
 ## v2.0.2
 `2025/05/08`
 - Enhance: EnvironmentのSunSourceが未設定、またはリアルタイム太陽システムで設定されている`DirectionalLight(太陽)`と異なるライトが設定されていた場合に警告を出すように
